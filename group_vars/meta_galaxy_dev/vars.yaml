@@ -17,7 +17,7 @@ galaxy_local_root: /srv/galaxy/dev
 galaxy_shared_root: "{{ corral_root }}/galaxy/dev"
 
 galaxy_repo: https://github.com/cfde-cwic/galaxy.git
-galaxy_commit_id: cfde_25.0
+galaxy_commit_id: cfde_25.1
 galaxy_job_execution_version: "25.1.2"
 
 #galaxy_local_tools_dir: "{{ galaxy_local_ro_root }}/local_tools"
