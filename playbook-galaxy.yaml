@@ -39,6 +39,7 @@
         path: "{{ galaxy_server_dir }}/client/node_modules"
         state: absent
       diff: false
+      no_log: true
 
     - name: Find plugin node_modules
       find:
