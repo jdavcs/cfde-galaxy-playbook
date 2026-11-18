@@ -18,6 +18,8 @@ all_packages:
   - strace
   - python3.12
   - apptainer
+  # used by pulsar-clean-jobs
+  - bc
 
 local_users:
   slurm:
